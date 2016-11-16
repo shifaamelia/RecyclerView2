@@ -36,7 +36,6 @@ import id.sch.smktelkom_mlg.learn.recyclerview2.model.Hotel;
 
         Hotel hotel = hotelList.get(position);
         holder.tvJudul.setText(hotel.judul);
-        holder.tvDeskripsi.setText(hotel.deskripsi);
         holder.ivFoto.setImageDrawable(hotel.foto);
     }
 
@@ -51,13 +50,11 @@ import id.sch.smktelkom_mlg.learn.recyclerview2.model.Hotel;
 
         ImageView ivFoto;
         TextView tvJudul;
-        TextView tvDeskripsi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }
 }
