@@ -2,7 +2,11 @@ package id.sch.smktelkom_mlg.learn.recyclerview1;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -42,7 +46,11 @@ public class MainActivity extends AppCompatActivity {
         Drawable [] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++)
         {
-            arFoto[i] = a.getDrawable(i);
+            BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
+            RoundedBitmapDrawable rbd =
+                    RoundedBitmapDrawableFactory.create(getResources(),bd.getBitmap());
+            rbd.setCircular(true);
+            arFoto[1] = rbd;
         }
         a.recycle();
 
