@@ -6,8 +6,8 @@
 
 # Identitas<h1>
 #
-#Nama : Shifa Amelia Arista
-#Kelas : XII RPL 4
-#No. Urut : 36
-#NIS : 4277/1342.070
-#Asal Sekolah : SMK Telkom Malang
+1. Nama : Shifa Amelia Arista
+2. Kelas : XII RPL 4
+3. No. Urut : 36
+4. NIS : 4277/1342.070
+5. Asal Sekolah : SMK Telkom Malang
