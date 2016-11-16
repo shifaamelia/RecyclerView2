@@ -1,8 +1,6 @@
-package id.sch.smktelkom_mlg.learn.recyclerview1.model;
+package id.sch.smktelkom_mlg.learn.recyclerview2.model;
 
 import android.graphics.drawable.Drawable;
-
-import java.sql.Driver;
 
 /**
  * Created by Shifa amelia on 11/4/2016.
